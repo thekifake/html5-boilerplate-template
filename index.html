@@ -1,35 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="Very great" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Cool website" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="https://google.com/search?q=Yeah+yeah" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
-
-</body>
-
+  <body>
+    <h1>Good</h1>
+    <label for="name">The chess player you desire</label>
+    <input type="text" name="name" id="name" /><br />
+    <button>Get thing</button>
+    <div id="user">
+      <img
+        id="user-img"
+        alt="User avatar"
+        width="200"
+        src="//via.placeholder.com/200"
+      /><br />
+      <strong id="user-name"></strong> | Joined <time id="user-joined"></time
+      ><br />
+      Last online: <time id="user-last-online"></time><br />
+      <strong>Account Type: </strong><span id="user-status"></span>
+    </div>
+    <!-- ================================== -->
+    <script src="js/vendor/modernizr-3.12.0.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
